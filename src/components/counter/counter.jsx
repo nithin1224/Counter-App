@@ -21,6 +21,8 @@ class Counter extends Component{
             <CounterButton by={1} incrementMethod={this.increment} decrementMethod={this.decrement}/>
             <CounterButton by={5} incrementMethod={this.increment} decrementMethod={this.decrement}/>
             <CounterButton by={10} incrementMethod={this.increment} decrementMethod={this.decrement}/>
+            <CounterButton by={20} incrementMethod={this.increment} decrementMethod={this.decrement}/>
+
             <span className="count"
             style = {{fontSize : "50px"}}
             >{this.state.counter}</span>
